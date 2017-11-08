@@ -8,11 +8,9 @@ Exploring featurization, incorporation side-information, and single vs. global m
 ```
 
 ### Topic
-```
 - [ ] Implementing AI
 - [ ] Interacting with AI
 - [x] Models and Methods
-```
 
 ### Abstract
 (Longer, more detailed description of your presentation to help the program committee understand what you will cover. If your proposal is chosen, this is the description that will appear on the website. Note that our copywriters may edit it for consistency and O'Reilly voice.)
