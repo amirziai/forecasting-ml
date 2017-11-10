@@ -70,7 +70,7 @@ If you are submitting a proposal for a 3-hour tutorial, what materials or downlo
 ### Video URL 
 While not required, we strongly encourage you to provide at least one video clip of the speaker. If you don’t have video of the speaker in action at an event, please create a very short clip (2-3 minutes) proposing the session. We don’t care about the quality of the video; we care about the quality of the speakers. If your video isn’t already online, post it to a third-party site (YouTube is fine), and then share the link with us.
 ```
-http://...
+https://www.dropbox.com/s/l86n5e08t3jmof8/Hart%20Machine%20Learning%20Lecture.mp4?dl=0
 ```
 
 ### Tips for submitting a successful proposal
