@@ -1,0 +1,5 @@
+pandas
+keras
+tensorflow
+h2o
+scikit-learn
