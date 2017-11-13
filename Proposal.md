@@ -1,10 +1,10 @@
 ### Proposal title
-Machine Learning Forecasting
+Forecasting Using Machine Learning
 
 ### Description
 (brief overview for marketing purposes, max. length 400 characters—about 65 words)
 ```
-Exploring featurization, incorporation side-information, and single vs. global models using linear and deep models with Tensorflow, scikit-learn, H2O, and Vowpal Wabbit.
+Many methods exist for predicting the future values of a series using historical data. Traditionally these methods rely on a single time series but re-framing forecasting as supervised machine learning allows data scientists to incorporate more features and leverage cutting-edge techniques such as deep learning to improve quality of predictions.
 ```
 
 ### Topic
@@ -15,22 +15,12 @@ Exploring featurization, incorporation side-information, and single vs. global m
 ### Abstract
 (Longer, more detailed description of your presentation to help the program committee understand what you will cover. If your proposal is chosen, this is the description that will appear on the website. Note that our copywriters may edit it for consistency and O'Reilly voice.)
 ```
-1. An overview of AR, ARIMA, SARIMA, Prophet.
+Using a supervised machine learning framework allows data scientist to use a rich variety of featurization and modeling techniques and libraries. We'll dive into feature engineering methods such as lag variables, window-based aggregations, and moments that are extracted from continuous, categorical, and textual variables. We'll then explore linear learners, tree algorithms, and deep learning using scikit-learn, Vowpal Wabbit, H2O, and Tensorflow. Finally we'll look go over strategies for deploying these models into production. 
 
-2. Incorporating side-information
-Featurization for continuous and categorical variables
-- Lag variables
-- Moving averages
-- Derivatives
-
-3. Using a global model
-
-4. Global model drawbacks
-Give more weight to idiosyncracies of items when they exist
-- Wide and deep
-- Hashing trick
-
-5. Implementation in a number of ML libraries
+- An overview of univariate forecasting techniques (e.g. SARIMA)
+- Re-framing forecasting as supervised machine learning
+- Window-based featurization for continuous and categorical variables
+- Implementation in a number of machine learning libraries, including scikit-learn, keras, vowpal wabbit and H2O 
 ```
 
 ### Audience level
@@ -53,18 +43,22 @@ Main ideas and/or skills attendees will learn from your presentation
 This information is crucial for attendees. Please describe what skills and knowledge attendees need to have in order to get the most from your talk.
 ```
 - Basics of data wrangling, feature engineering, and machine learning
-- Familiarity with an ML library
+- Familiarity with a machine learning library
 ```
 
 ### Hardware and/or installation requirements for attendees 
 If you are submitting a proposal for a 3-hour tutorial, what materials or downloads will attendees need in advance of your tutorial (e.g., a GitHub account, most current version of MySQL, a laptop, etc.)?
 ```
-- github
+A laptop with the following software and packages installed:
+- Python (preferrably Anaconda 3)
 - Jupyter
 - TensorFlow
-- keras
+- Keras
 - H2O
-- scikit-learn
+- Scikit-learn
+- Vowpal Wabbit
+
+A Docker image will be provided closer to the date of the conference.
 ```
 
 ### Video URL 
@@ -74,8 +68,6 @@ https://www.dropbox.com/s/l86n5e08t3jmof8/Hart%20Machine%20Learning%20Lecture.mp
 ```
 
 ### Tips for submitting a successful proposal
-
-```
 Pick the right topic for your talk to be sure it gets in front of the right program committee members.
 Be authentic. Your peers need original ideas in real-world scenarios, relevant examples, and knowledge transfer.
 Give your proposal a simple and straightforward title.
@@ -88,7 +80,6 @@ Limit the scope: in 40 minutes, you won’t be able to cover Everything about Fr
 Explain why people will want to attend and what they’ll take away from it
 Don’t assume that your company’s name buys you credibility. If you’re talking about something important that you have specific knowledge of because of what your company does, spell that out in the description.
 Does your presentation have the participation of a woman, person of color, or member of another group often underrepresented at tech conferences? Diversity is one of the factors we seriously consider when reviewing proposals as we seek to broaden our speaker roster.
-```
 
 ### References
 - https://conferences.oreilly.com/artificial-intelligence/ai-ny/public/cfp/595
