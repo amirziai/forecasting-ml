@@ -4,7 +4,7 @@ Forecasting Using Machine Learning
 ### Description
 (brief overview for marketing purposes, max. length 400 characters—about 65 words)
 ```
-Many methods exist for predicting the future values of a series using historical data. Traditionally these methods rely on a single time series but re-framing forecasting as supervised machine learning allows data scientists to incorporate more features and leverage cutting-edge techniques such as deep learning to improve quality of predictions.
+Many methods exist for predicting the future values of a series using historical data. Traditionally these methods rely on a single time series. Re-framing forecasting as supervised machine learning allows data scientists to incorporate more features and leverage cutting-edge techniques such as deep learning to improve the quality of predictions.
 ```
 
 ### Topic
@@ -15,12 +15,12 @@ Many methods exist for predicting the future values of a series using historical
 ### Abstract
 (Longer, more detailed description of your presentation to help the program committee understand what you will cover. If your proposal is chosen, this is the description that will appear on the website. Note that our copywriters may edit it for consistency and O'Reilly voice.)
 ```
-Using a supervised machine learning framework allows data scientist to use a rich variety of featurization and modeling techniques and libraries. We'll dive into feature engineering methods such as lag variables, window-based aggregations, and moments that are extracted from continuous, categorical, and textual variables. We'll then explore linear learners, tree algorithms, and deep learning using scikit-learn, Vowpal Wabbit, H2O, and Tensorflow. Finally we'll look go over strategies for deploying these models into production. 
+Using a supervised machine learning framework allows data scientist to use a rich variety of featurization and modeling techniques and libraries. We'll dive into feature engineering methods such as lag variables, window-based aggregations, and moments that are extracted from continuous, categorical, and textual variables. We'll then explore linear learners, tree algorithms, and deep learning using scikit-learn, Vowpal Wabbit, H2O, and Tensorflow. Finally we'll go over strategies for deploying these forecasting models into production. 
 
 - An overview of univariate forecasting techniques (e.g. SARIMA)
 - Re-framing forecasting as supervised machine learning
-- Window-based featurization for continuous and categorical variables
-- Implementation in a number of machine learning libraries, including scikit-learn, keras, vowpal wabbit and H2O 
+- Featurization for continuous, categorical, and textual time series
+- Implementation in a number of machine learning libraries including scikit-learn, Keras, Vowpal Wabbit and H2O 
 ```
 
 ### Audience level
@@ -33,10 +33,10 @@ Using a supervised machine learning framework allows data scientist to use a ric
 ### What's the takeaway for the audience?
 Main ideas and/or skills attendees will learn from your presentation
 ```
-- Survey of forecasting methods
-- Featurization techniques and incorporating side-informaton
-- Examples for forecasting models in popular ML libraries
-- 
+- Overview of univariate forecasting methods
+- Featurization techniques for time-series data and incorporating side-informaton
+- Implementing forecasting using machine learning with the most popular machine learning libraries
+- Deployment strategies
 ```
 
 ### Prerequisite knowledge for this presentation
@@ -50,7 +50,7 @@ This information is crucial for attendees. Please describe what skills and knowl
 If you are submitting a proposal for a 3-hour tutorial, what materials or downloads will attendees need in advance of your tutorial (e.g., a GitHub account, most current version of MySQL, a laptop, etc.)?
 ```
 A laptop with the following software and packages installed:
-- Python (preferrably Anaconda 3)
+- Python 3 (Anaconda distribution)
 - Jupyter
 - TensorFlow
 - Keras
@@ -58,7 +58,7 @@ A laptop with the following software and packages installed:
 - Scikit-learn
 - Vowpal Wabbit
 
-A Docker image will be provided closer to the date of the conference.
+A Docker image will be provided to the attendees closer to the date of the conference.
 ```
 
 ### Video URL 
