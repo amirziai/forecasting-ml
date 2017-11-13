@@ -34,7 +34,7 @@ Using a supervised machine learning framework allows data scientist to use a ric
 Main ideas and/or skills attendees will learn from your presentation
 ```
 - Overview of univariate forecasting methods
-- Featurization techniques for time-series data and incorporating side-informaton
+- Featurization techniques for time-series data and incorporating side-information
 - Implementing forecasting using machine learning with the most popular machine learning libraries
 - Deployment strategies
 ```
