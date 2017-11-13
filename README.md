@@ -1,5 +1,4 @@
-# forecasting-ml
-Tutorial for forecasting using machine learning
+# Forecasting using Machine Learning
 
 1. Introduction
 2. Single-series forecast
