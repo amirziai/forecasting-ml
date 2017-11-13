@@ -21,7 +21,7 @@
 3. ARIMA
 4. SARIMA
 5. Holt-Winters
-6. Prophet
+6. [Prophet](https://research.fb.com/prophet-forecasting-at-scale/)
 
 ### 3. Feature engineering
 
