@@ -2,10 +2,7 @@
 Forecasting Using Machine Learning
 
 ### Description
-(brief overview for marketing purposes, max. length 400 characters—about 65 words)
-```
 Many methods exist for predicting the future values of a series using historical data. Traditionally these methods rely on a single time series. Re-framing forecasting as supervised machine learning allows data scientists to incorporate more features and leverage cutting-edge techniques such as deep learning to improve the quality of predictions.
-```
 
 ### Topic
 - [ ] Implementing AI
@@ -13,42 +10,36 @@ Many methods exist for predicting the future values of a series using historical
 - [x] Models and Methods
 
 ### Abstract
-(Longer, more detailed description of your presentation to help the program committee understand what you will cover. If your proposal is chosen, this is the description that will appear on the website. Note that our copywriters may edit it for consistency and O'Reilly voice.)
-```
-Using a supervised machine learning framework allows data scientist to use a rich variety of featurization and modeling techniques and libraries. We'll dive into feature engineering methods such as lag variables, window-based aggregations, and moments that are extracted from continuous, categorical, and textual variables. We'll then explore linear learners, tree algorithms, and deep learning using scikit-learn, Vowpal Wabbit, H2O, and Tensorflow. Finally we'll go over strategies for deploying these forecasting models into production. 
+Time series forecasting is pervasive across many industries such as finance, retail, and transportation. Traditionally univariate models, such as SARIMA are used to forecast a single time series. However, recent advances in machine learning methods allow us to now recast time series analysis problems as supervised learning problems. This has resulted in an increase in accuracy in many time series forecasting tasks.
+
+Using a supervised machine learning framework allows data scientists to use a rich variety of featurizations and modeling techniques. This implies that a machine learning model can learn any univariate model given the appropriate data and featurizations. 
+
+In some domains such as finance and retail it is common to have many distinct, but related, time series that all need predictions at once. We'll explore how using machine learning we can actually share information across different time series.
+
+In this tutorial we'll dive into feature engineering methods such as lag variables, window-based aggregations, and moments that are extracted from continuous, categorical, and textual variables. We'll then explore linear learners, tree algorithms, and deep learning using scikit-learn, Vowpal Wabbit, H2O, XGBoost, and Tensorflow. Finally we'll go over strategies for deploying these models into production.
 
 - An overview of univariate forecasting techniques (e.g. SARIMA)
-- Re-framing forecasting as supervised machine learning
+- Reframing forecasting as supervised machine learning
 - Featurization for continuous, categorical, and textual time series
-- Implementation in a number of machine learning libraries including scikit-learn, Keras, Vowpal Wabbit and H2O 
-```
+- Implementation in a number of machine learning libraries including scikit-learn, Keras, Vowpal Wabbit, XGBoost and H2O
+- Techniques for handling many unique but similar time series jointly 
 
 ### Audience level
-```
 - [ ] Beginner
 - [x] Intermediate
 - [ ] Advanced
-```
 
 ### What's the takeaway for the audience?
-Main ideas and/or skills attendees will learn from your presentation
-```
 - Overview of univariate forecasting methods
 - Featurization techniques for time-series data and incorporating side-information
 - Implementing forecasting using machine learning with the most popular machine learning libraries
 - Deployment strategies
-```
 
 ### Prerequisite knowledge for this presentation
-This information is crucial for attendees. Please describe what skills and knowledge attendees need to have in order to get the most from your talk.
-```
 - Basics of data wrangling, feature engineering, and machine learning
 - Familiarity with a machine learning library
-```
 
 ### Hardware and/or installation requirements for attendees 
-If you are submitting a proposal for a 3-hour tutorial, what materials or downloads will attendees need in advance of your tutorial (e.g., a GitHub account, most current version of MySQL, a laptop, etc.)?
-```
 A laptop with the following software and packages installed:
 - Python 3 (Anaconda distribution)
 - Jupyter
@@ -58,14 +49,10 @@ A laptop with the following software and packages installed:
 - Scikit-learn
 - Vowpal Wabbit
 
-A Docker image will be provided to the attendees closer to the date of the conference.
-```
+A Docker image will be provided to the attendees closer to the date of the conference.```
 
 ### Video URL 
-While not required, we strongly encourage you to provide at least one video clip of the speaker. If you don’t have video of the speaker in action at an event, please create a very short clip (2-3 minutes) proposing the session. We don’t care about the quality of the video; we care about the quality of the speakers. If your video isn’t already online, post it to a third-party site (YouTube is fine), and then share the link with us.
-```
 https://www.dropbox.com/s/l86n5e08t3jmof8/Hart%20Machine%20Learning%20Lecture.mp4?dl=0
-```
 
 ### Tips for submitting a successful proposal
 Pick the right topic for your talk to be sure it gets in front of the right program committee members.
